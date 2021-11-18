@@ -1,9 +1,9 @@
-#### Start 
-install packages: `yarn`  
-build files: `yarn build`  
-run develop: `yarn start`  
+## Start 
+- install packages: `yarn`  
+- build files: `yarn build`  
+- run develop: `yarn start`  
   
-#### Info  
+## Info  
 - webpack config files: `/Scripts`
 - entry points are defined in: `/scripts/config.js`
 - createEntries() is just a helper function for easier adoption to my projects later and will be extended
