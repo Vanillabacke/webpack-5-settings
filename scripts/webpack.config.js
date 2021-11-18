@@ -100,27 +100,7 @@ module.exports = {
 				test: /.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
                 type: "asset/resource",
                 generator: {
-                //     // filename: "assets/fonts/[hash][ext]",
-                //     // filename: "wp-content/themes/custom-theme/build/fonts/assets/fonts/[hash][ext]",
-                //     // filename: `${getPath(`__THEME_DIR__/build/fonts`, {absolute: false, leadingSlash: false})}/[hash][ext]`,
-                    
                     filename: `${getPath(`__THEME_DIR__/build/fonts`, {absolute: false, leadingSlash: false})}/[hash][ext]`,
-                    // filename: `fonts/[hash][ext]`,
-                    
-                    // filename: `wp-content/themes/custom-theme/build/fonts/[hash][ext]`,
-                    // filename: `${getPath(`__PLUGIN_DIR__/build/fonts`, {absolute: false, leadingSlash: false})}/[hash][ext]`,
-                    // publicPath: '../',
-                //     // filename: `assets/fonts/[hash][ext]`,
-                //     // publicPath: '../'
-                    
-                //     // filename: `/[hash][ext]`,
-                //     // publicPath: '../',
-
-                //     // dataUrl: content => {
-
-                //     //     console.log(content.toString())
-                //     //     return content
-                //     // }
                 },
 			}
 
